@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="jimi_hendrix.css">
+
+    <style>
+        h2{
+            font-size: 100px;
+        }
+
+        .about-photo{
+            text-align: right;
+            
+        }
+
+        .info{
+            position: absolute;
+            bottom: 10px; 
+            left: 10px;
+            animation-name: info-text;
+            animation-duration: 3s;
+        }
+
+        @keyframes info-text{
+            from{
+                margin-left: 100%;
+                width: 300%;
+            }
+            to{
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <h1> The Jimi Hendrix Experience</h1>
+
+    <nav>
+        <ul>
+            <li> <a href="jimi_hendrix_home.html"> Home </a> </li>
+            <li> <a href="jimi_hendrix_about.html"> About </a> </li>
+            <li> <a href="jimi_hendrix_albums.html"> Albums </a> </li>
+            <li> <a href="jimi_hendrix_photos.html"> Photos </a> </li>
+            <li><a href="jimi_hendrix_tickets.html"> Tickets </a></li>
+        </ul>
+
+    </nav>
+
+<div>
+    <h2> One of the most influecntial guitarist known to live. </h2>
+    <div class="about-photo">
+    <img src="..//jimi_hendrix_photos/jimi_hendrix_about.webp">  
+    </div>
+
+    <div class="info">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing <br>
+            elit. Perferendis, ratione omnis? Excepturi ipsum itaque corrupti<br> 
+            explicabo eius unde ab sunt a numquam. Suscipit repellendus minus aliquid<br>
+            voluptatum atque nostrum sequi.
+        </p>
+    </div>
+</div>   
+
+
+
+</body>
+</html>
